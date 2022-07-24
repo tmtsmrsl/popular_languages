@@ -1,1 +1,1 @@
-Most used languages for data related jobs.
+Most used languages for data related jobs according to Stack Overflow 2021 survey results. Github doesn't include embedded HTML/JS, so if you want to view the Plotly visualization output you can read it through [NBViewer](https://nbviewer.org/github/tmtsmrsl/popular_languages/blob/main/popular_language.ipynb#).
