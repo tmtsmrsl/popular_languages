@@ -15,7 +15,7 @@ with st.sidebar:
     number_lang = st.slider("Choose number of languages: ", 1, 10, 5)
     st.markdown("---")
     st.markdown("Created by Timotius Marselo")
-    st.markdown("Source code is available on [my website](https://tmtsmrsl.github.io/project02.html).")
+    st.markdown("Source code for the data analysis steps is available on [my website](https://tmtsmrsl.github.io/project02.html).")
 
 # Data source
 
