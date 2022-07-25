@@ -65,4 +65,4 @@ with chart:
     st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("""Hover over the chart to see the percentage of {} that have worked with the corresponding language. 
-                Data is based on Stack Overflow Developer Survey 2021 results.""".format(data_role))
+                Data are based on Stack Overflow Developer Survey 2021 results.""".format(data_role))
