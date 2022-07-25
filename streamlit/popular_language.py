@@ -17,7 +17,7 @@ with st.sidebar:
     st.markdown("Created by Timotius Marselo")
     st.markdown("Source code for the data analysis and visualization steps is available on [my website](https://tmtsmrsl.github.io/project02.html).")
 
-# Data source
+# Data source (normalized_df.csv is obtained after cleaning and transforming the raw data)
 
 normalize_df = pd.read_csv(
     "https://raw.githubusercontent.com/tmtsmrsl/popular_languages/main/streamlit/normalized_popular_language.csv")
