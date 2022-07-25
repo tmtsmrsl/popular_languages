@@ -15,7 +15,7 @@ with st.sidebar:
     number_lang = st.slider("Choose number of languages: ", 1, 10, 5)
     st.markdown("---")
     st.markdown("Created by Timotius Marselo")
-    st.markdown("Source code for the data analysis steps is available on [my website](https://tmtsmrsl.github.io/project02.html).")
+    st.markdown("Source code for the data analysis and visualization steps is available on [my website](https://tmtsmrsl.github.io/project02.html).")
 
 # Data source
 
@@ -66,3 +66,8 @@ with chart:
 
 st.markdown("""Hover over the chart to see the percentage of {} that have worked with the corresponding language. 
                 Data are based on Stack Overflow Developer Survey 2021 results.""".format(data_role))
+st.markdown("""Here are some key points from the visualization above:  
+                - Data scientist, data analyst, and data engineer have similarity in which Python is the most used language followed by SQL.  
+                - For database administrator, SQL is the most used language followed by Python.  
+                - Java is quite popular among all data professionals, although not as popular as Python and SQL.  
+                **- Learn Python and SQL if you want to have a data-related career.**""")
